@@ -1,0 +1,60 @@
+.heading {
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 8px 8px #888888;
+}
+
+#display {
+    font-size: 25px;
+    text-align: right;
+    height: 50px;
+    line-height: 70px;
+    padding: 16px 8px;
+}
+
+.allBtns {
+    display: grid;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.allBtns > div {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.btn {
+    border: 0px solid black;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.clear {
+    background-color: orange;
+}
+
+.btn.del {
+    background-color: red;
+}
+
+#result {
+    background-color: green;
+    color: white;
+}
+
+#result:hover {
+    background-color: gray;
+}
+
+.btn:hover {
+    background-color: gray;
+    transition: 0.3s;
+    color: white;
+}
